@@ -57,11 +57,10 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.microService</groupId>
-            <artifactId>cloud-api-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
         <!--   添加eureka客户端的依赖     -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

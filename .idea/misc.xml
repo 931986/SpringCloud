@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/cloud-consumer-order-02/pom.xml" />
         <option value="$PROJECT_DIR$/EurakaServer02/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-01/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config-01/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
