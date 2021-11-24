@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurakaServer02" />
+        <module name="cloud-config-01" />
+        <module name="EurakaServer" />
+        <module name="cloud-provide-payment (1)" />
+        <module name="cloud-consumer-order-01" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-gateway-01" />
+        <module name="cloud-provide-payment" />
+        <module name="cloud-consumer-order-02" />
+        <module name="cloud-consumer-feign-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="cloud-consumer-order" target="11" />
+      <module name="EurekaMainServer" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="DEPRECATION" value="false" />
+  </component>
+</project>
